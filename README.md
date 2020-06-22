@@ -11,7 +11,8 @@ KVM to LXC converter script
 ```
 
 2. use that VM name as an argument to the script:
-`./kvm-to-lxc.sh test34`
+`curl https://raw.githubusercontent.com/denisix/kvm-to-lxc/master/kvm-to-lxc.sh | sh test34`
+
 
 3. script will do the rest:
 - mount QCOW2 source container image
